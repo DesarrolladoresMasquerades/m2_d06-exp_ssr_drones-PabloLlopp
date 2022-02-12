@@ -6,3 +6,71 @@ body {
 a {
   color: #00b7ff;
 }
+
+.drone-list {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+  gap: 5px;
+}
+
+.drone-box {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.drone-box h3 {
+  text-decoration: underline;
+}
+
+.drone-box button {
+  border: none;
+  cursor: pointer;
+  background-color: #862c10;
+  color: white;
+  padding: 5px;
+}
+
+.drone-box button:hover {
+  background-color: #b93d18;
+  font-size: medium;
+}
+
+.add-drone {
+  margin: 50px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: larger;
+}
+
+.add-drone-form{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: cornflowerblue;
+  padding: 30px;
+  justify-content: center;
+}
+
+.add-drone-form input{
+  border-radius: 10px;
+}
+
+.add-drone-form input, .add-drone-form label {
+  margin: 5px
+}
+
+.add-drone-form button {
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+
+
+.update {
+  display: flex;
+}
